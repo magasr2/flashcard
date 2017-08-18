@@ -3,7 +3,6 @@ var arrayQuestions = require('./app.js');
 var arrayFront = require('./app2.js');
 
 
-
 //Function calling partial question
 function recurs(i){
 
@@ -32,11 +31,6 @@ inquirer
 };
 
 
-
-
-
-
-
 //Function calling full questions
 function recursFront(i){
 
@@ -63,9 +57,6 @@ inquirer
     recursFront(i);
   });
 };
-
-
-
 
 
 //Function asking user what question they want to answer
